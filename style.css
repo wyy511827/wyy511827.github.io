@@ -1,0 +1,27 @@
+/* 全局样式设置 */
+body{
+    margin: 0; /* 将元素的外边框设置为0 */
+    overflow: hidden; /* 超出边界部分隐藏，隐藏body的滚动条 */
+    font-family: "PingFangSC-Regular", "微软雅黑", sans-serif; /* 设置字体为“PingFangSC-Regular”或“微软雅黑”，如果这些字体不可用，则使用默认的无衬线字体（sans-serif） */
+    height: 100%;
+}
+
+h1 {
+    font-size: 2rem; /* 设置标题字体大小为2rem */
+    letter-spacing: -1px; /* 设置标题字母间距为-1px */
+    position: absolute; /* 设置标题位置为绝对定位 */
+    margin: 0;
+    top: -4px; /* 将标题向上移动4px */
+    right: 5px; /* 将标题向右移动5px */
+
+    color: transparent; /* 设置标题颜色为透明 */
+    text-shadow: 0 0 4px white; /* 设置标题的文本阴影白色 */
+}
+
+p {
+    position: absolute; /* 设置段落位置为绝对定位 */
+    margin: 0;
+    top: 35px; /* 将段落上边距为35像素，即段落向下移动35像素 */
+    right: 5px;
+    color: #aaa;
+}
