@@ -1,0 +1,58 @@
+body{
+    margin: 0; /* 将元素的外边框设置为0 */
+    padding: 0; /* 将元素的内边距设置为0 */
+    font-family: "PingFangSC-Regular", "微软雅黑", sans-serif; /* 设置字体为“PingFangSC-Regular”或“微软雅黑”，如果这些字体不可用，则使用默认的无衬线字体（sans-serif） */
+
+}
+
+h1 {
+    font-size: 2rem; /* 设置标题字体大小为2rem */
+    letter-spacing: -1px; /* 设置标题字母间距为-1px */
+    /* 设置标题位置为居中 */
+    position: absolute;
+    margin: 0;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* 使用transform属性将标题向左和向上移动自身宽度和高度的一半，使其居中 */
+    color: #000000; /* 设置标题颜色为黑色 */
+    text-align: center; /* 设置标题文本居中对齐 */
+
+    text-shadow: 0 0 4px white; /* 设置标题的文本阴影白色 */
+}
+
+img {
+    position: absolute; /* 将图片定位为绝对定位 */
+}
+
+.message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 设置背景颜色为半透明黑色 */
+    color: white; /* 设置文本颜色为白色 */
+    text-align: center; /* 设置文本居中对齐 */
+    display: flex; /* 使用flex布局 */
+    justify-content: center; /* 水平居中对齐 */
+    align-items: center; /* 设置垂直居中对齐 */
+    font-size: 24px; /* 设置字体大小为1.5rem */
+    font-weight: bold; /* 设置字体加粗 */
+}
+
+p {
+    position: absolute;
+    top: 85%;
+    left: 0;
+    width: 100%;
+    text-align: center; /* 设置文本居中对齐 */
+    font-size: 24px;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    text-align: center; /* 设置文本居中对齐 */
+    font-size: 20px;
+}
