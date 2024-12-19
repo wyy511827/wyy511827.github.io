@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="treasure.js" defer></script>
+    <title>寻宝游戏</title>
+</head>
+
+<body>
+    <h1>寻宝游戏</h1>
+    <div id="input-container">
+        <input type="text" id="playerId" placeholder="请输入玩家ID" />
+        <input type="text" id="playerNickname" placeholder="请输入您的昵称" />
+        <button id="savePlayerInfoButton">保存玩家信息</button>
+    </div>
+    <p id="saveStatus"></p> <!-- 用于显示保存状态信息 -->
+    <button id="startGameButton" disabled>开始游戏</button> <!-- 初始禁用开始游戏按钮 -->
+    <div id="game-canvas">
+    </div>
+    <audio id="backgroundMusic" autoplay loop>
+        <source src="music_abundance.flac" type="audio/flac">
+    </audio>
+</body>
+
+</html>
